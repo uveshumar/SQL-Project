@@ -12,6 +12,7 @@ For the project some steps has been followed:
 3 - Exploratory analysis using aggregations, joins, window fuction, common table expressions (CTE) and views.
 
 
+
 Conclusion:
 
 1 - Usa, Brazil and India are the top 3 in the number of deaths.
