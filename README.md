@@ -17,7 +17,7 @@ For the project some steps has been followed:
 
 Conclusion:
 
-1 - Usa, Brazil and India are the top 3 in the number of deaths.
+1 - USA, Brazil and India are the top 3 in the number of deaths.
 
 2 - The top three countries with highest percentage of people infected is: Andorra, Seychelles and Montenegro.
 
