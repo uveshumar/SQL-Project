@@ -15,7 +15,7 @@ For the project some steps has been followed:
 
 
 
-Conclusion:
+**Conclusion:**
 
 1 - USA, Brazil and India are the top 3 in the number of deaths.
 
