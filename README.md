@@ -1,9 +1,9 @@
 # SQL-Project : Exploratory Data Analysis - COVID Deaths and Vaccinations
-**Objective:**
+##**Objective:**
 
 The objective is to give insights of COVID-19. For that, It will be shown how is the number of deaths and vaccinations for each continent and country. This analysis is based on real data about covid 19 from January 2020 to July 2021 using My SQL.
 
-For the project some steps has been followed:
+###**For the project some steps has been followed:**
 
 1 - Table creation for deaths and vaccinations.
 
@@ -15,7 +15,7 @@ For the project some steps has been followed:
 
 
 
-**Conclusion:**
+##**Conclusion:**
 
 1 - USA, Brazil and India are the top 3 in the number of deaths.
 
