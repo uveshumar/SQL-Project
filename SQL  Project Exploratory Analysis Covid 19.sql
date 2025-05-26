@@ -1,7 +1,7 @@
 create database if not exists Exploratory_Analysis_Covid_19;
 Use Exploratory_Analysis_Covid_19;
 
-/*  1st Table covid_deaths  */      select *from covid_deaths;
+/*  1st Table covid_deaths  */      select * from covid_deaths;
 
 
 create table covid_deaths(
@@ -106,10 +106,12 @@ IGNORE 1 LINES;
 
 describe covid_vaccination;
 
+
 /* How many lines does the dataset have?*/
 
  select count(*) from covid_deaths;
  select count(*) from covid_vaccination;
+
  
  /* Exploring some important columns of the dataset covid.deaths.csv*/
  
@@ -126,6 +128,7 @@ FROM covid_deaths
 GROUP BY date, continent, location
 HAVING Checking_Dup > 1;
 
+
 /* check duplicate value table covid_vaccination */
 
 SELECT date, continent, location,
@@ -133,6 +136,7 @@ COUNT(*) as Checking_Dup
 FROM covid_vaccination
 GROUP BY date, continent, location
 HAVING Checking_Dup > 1;
+
 
 
 /* Checking the quantity of continents and countries  */
@@ -145,9 +149,11 @@ GROUP BY continent with rollup
 ORDER BY continent;
 
 
+
 SELECT COUNT(location) as Qtt_Countries
 FROM(SELECT DISTINCT location
 FROM covid_deaths) as Subquery;
+
 
 /* Average number of deaths by day (Continents and Countries) */
 
@@ -237,8 +243,7 @@ JOIN covid_vaccination AS vaccination
 
 /*Percentage of the population vaccinated with at least the first dose until 30/6/2021 (Top 3) */
 
-SELECT *
-FROM percentage_vacvspop
+SELECT * FROM percentage_vacvspop
 WHERE (location = 'United States'
 OR location = 'Brazil'
 OR location = 'india'
@@ -247,3 +252,4 @@ OR location = 'Peru')
 AND DATE = '30/06/21'
 ORDER BY Percentage_1_Dose DESC;
 
+/* Thank you :) */
