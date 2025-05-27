@@ -9,7 +9,7 @@ The objective is to give insights of COVID-19. For that, It will be shown how is
 
 2 - Loading of datasets using Command Line Client.
 
-3 - Exploratory analysis using aggregations, joins, window fuction, common table expressions (CTE) and views.
+3 - Exploratory analysis using aggregations, joins, window function, common table expressions (CTE) and views.
 
 
 
